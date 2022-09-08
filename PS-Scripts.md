@@ -23,4 +23,7 @@
 **Update Debian/Ubuntu**  
 `apt update && apt upgrade -y`
 
-
+**Install Office 2019 via Volume Licenese Installer**  
+- You need to download the office setup.exe file from Micrsoft Volume Licensing Center  
+- Use the xml file in ProPlus2019.xml as an example and tweak it as desired  
+`./setup.exe /configure <PATH_TO_XML/settings.xml>`
