@@ -18,7 +18,7 @@
 
 **Update MacOS**  
 `softwareupdate -l`  
-`softwareupdate -i -a`
+`softwareupdate -ia`
 
 **Update Debian/Ubuntu**  
 `apt update && apt upgrade -y`
